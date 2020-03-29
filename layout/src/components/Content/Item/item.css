@@ -1,0 +1,63 @@
+.item {
+    min-height: 200px;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    font-family: "TT Norms";
+    position: relative;
+}
+
+@media (max-width: 500px) {
+    .item {
+        flex-direction: column;
+    }
+    .item__left, .item__info {
+        width: 100%;
+    }
+}
+
+.item__left {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+}
+
+.item__title {
+    display: flex;
+}
+
+.item__icon {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.item__name {
+    display: block;
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+    width: 225px;
+    max-width: 70%;
+    word-wrap: break-word;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    text-align: left;
+}
+
+.item__settings {
+    margin-top: 30px;
+    width: 70%;
+}
+
+.item__info {
+    width: 60%;
+}
+
+@media (max-width: 500px) {
+    .item__left, .item__info {
+        width: 100%;
+    }
+}
