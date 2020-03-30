@@ -21,10 +21,8 @@ export default class Filters extends React.Component {
     render() {
         return (
             <form className='filters' id='filters'>
-                <select className='filters__select' defaultValue='2'>
-                    <option value='1'>1 week</option>
+                <select className='filters__select' defaultValue='1'>
                     <option value='2'>1 month</option>
-                    <option value='3'>1 year</option>
                 </select>
 
                 <div className='filters__checkbox filters__checkbox_first' id='calibration' onClick={this.radioClicked}>
