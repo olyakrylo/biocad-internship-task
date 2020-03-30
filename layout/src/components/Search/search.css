@@ -26,12 +26,11 @@
     margin-bottom: 10px;
     width: 100%;
     display: flex;
-    /* justify-content: space-between; */
     align-items: center;
     flex-direction: row;
 }
 
-.search__input {
+.search__select {
     width: 210px;
     height: 30px;
     outline: none;
@@ -41,6 +40,9 @@
     font: inherit;
     letter-spacing: 0.16px;
     border-radius: 0;
+    -webkit-appearance: none;
+    -moz-appearance:    none;
+    appearance: none !important;
 }
 
 .search__button {
