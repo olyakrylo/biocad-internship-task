@@ -1,0 +1,21 @@
+.device__info {
+    display: inline-block;
+    padding: 20px 18px 30px 18px;
+    background-color: #F7F7F7;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+    text-align: left;
+    font-weight: bold;
+    font-size: 14px;
+    color: #444651;
+    line-height: 23px;
+}
+
+.device__info_grey {
+    color: #8C8C8C;
+}
+
+.device__info_blue {
+    color: #4990e2;
+}
