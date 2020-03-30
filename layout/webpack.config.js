@@ -21,7 +21,7 @@ module.exports = {
         use: ["style-loader", "css-loader"]
       },
       {
-        test: /\.ttf$/,
+        test: /\.woff$/,
         loader: "file-loader",
         include: path.join(__dirname, 'src/media/fonts'),
         options: {

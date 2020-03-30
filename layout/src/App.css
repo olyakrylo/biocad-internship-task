@@ -20,12 +20,12 @@
 
 @font-face {
   font-family: "TT Norms";
-  src: url("./media/fonts/TTNorms-Regular.ttf") format("truetype");
+  src: url("./media/fonts/TTNorms-Regular.woff") format("woff");
   font-weight: normal;
 }
 
 @font-face {
   font-family: 'TT Norms';
-  src: url('./media/fonts/TTNorms-Medium.ttf') format('truetype');
+  src: url('./media/fonts/TTNorms-Medium.woff') format('woff');
   font-weight: bold;
 }

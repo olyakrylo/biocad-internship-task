@@ -7,7 +7,7 @@ export default class Header extends React.Component {
             <div className='search'>
                 <p className='search__title'>Enter inventory number, guid or bims id</p>
                 <form className='search__form'>
-                    <input className='search__input'></input>
+                    <input placeholder='A-001234' className='search__input'></input>
                     <button className='search__button'>Search</button>
                 </form>
             </div>
