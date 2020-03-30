@@ -51,7 +51,9 @@ export default class Filters extends React.Component {
                     <input className='filters__radio' type="radio" name="using" value="using" />
                     <label className='filters__label' htmlFor="using">Using</label>
                 </div>
-                <button className='filters__button'>Generate report</button>
+                <button className='filters__button'>Generate report
+                    <div className='filters__button_hover'></div>
+                </button>
             </form>
         )
     }
