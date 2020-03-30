@@ -98,7 +98,7 @@
     width: 90px;
     height: 40px;
     margin-top: 10px;
-    visibility: hidden;
+    display: none;
 }
 
 .filters__button_blue {

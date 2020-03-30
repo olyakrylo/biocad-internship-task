@@ -56,7 +56,7 @@ export default class Filters extends React.Component {
                         <div className='filters__button_hover'></div>
                     </button>
 
-                    {/* visibility: hidden */}
+                    {/* display: none */}
                     <button className='filters__button filters__button_white filters__button_right'>Save pdf
                         <div className='filters__button_hover'></div>
                     </button>
