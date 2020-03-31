@@ -50,13 +50,13 @@ export default class Filters extends React.Component {
                     <label className='filters__label' htmlFor="using">Using</label>
                 </div>
                 <div className='filters__button-container'>
-                    <button className='filters__button filters__button_blue filters__button_left'>Generate report
-                        <div className='filters__button_hover'></div>
+                    <button className='filters__button filters__button_blue filters__button_left'>
+                        Generate report
                     </button>
 
                     {/* display: none */}
-                    <button className='filters__button filters__button_white filters__button_right'>Save pdf
-                        <div className='filters__button_hover'></div>
+                    <button className='filters__button filters__button_white filters__button_right'>
+                        Save pdf
                     </button>
                 </div>
             </form>

@@ -11,7 +11,7 @@ export default class Header extends React.Component {
                         <option value='1'>A-001234</option>
                     </select>
                     <button className='search__button'>Search
-                        <div className='search__button_hover'></div>
+                        {/* <div className='search__button_hover'></div> */}
                     </button>
                 </form>
             </div>

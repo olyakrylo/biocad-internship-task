@@ -112,7 +112,8 @@
     color: #353535;
 }
 
-.filters__button_hover {
+.filters__button::after {
+    content: '';
     position: absolute;
     top: -1px;
     left: -1px;
@@ -122,10 +123,10 @@
     visibility: hidden;
 }
 
-.filters__button:hover .filters__button_hover {
-    cursor: pointer;
+.filters__button:hover::after {
     visibility: visible;
-}   
+    cursor: pointer;
+}
 
 @media (max-width: 500px) {
     .filters__button-container {
