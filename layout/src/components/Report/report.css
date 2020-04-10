@@ -67,6 +67,7 @@
     vertical-align: top;
     line-height: 18px;
     border-bottom: 1px solid #E9E9E9;
+    color: #353535;
 }
 
 @media (max-width: 500px) {

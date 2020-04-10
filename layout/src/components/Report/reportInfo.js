@@ -3,7 +3,7 @@ export default
     {
         data: {
             date: '04.10.19',
-            time: '10.23'
+            time: '10:23'
         },
         ubs: [
             "В1: № 2000460789536: pH 1.09",
@@ -21,7 +21,7 @@ export default
     {
         data: {
             date: '04.10.19',
-            time: '10.23'
+            time: '10:23'
         },
         ubs: [
             "В1: № 2000460789536: pH 1.09",
@@ -39,7 +39,7 @@ export default
     {
         data: {
             date: '04.10.19',
-            time: '10.23'
+            time: '10:23'
         },
         ubs: [
             "В1: № 2000460789536: pH 1.09",
@@ -57,7 +57,7 @@ export default
     {
         data: {
             date: '04.10.19',
-            time: '10.23'
+            time: '10:23'
         },
         ubs: [
             "В1: № 2000460789536: pH 1.09",
