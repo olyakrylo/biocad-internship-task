@@ -76,3 +76,9 @@
     visibility: visible;
     cursor: pointer;
 }
+
+@media (max-width: 1024px) {
+    .search__button:hover::after {
+        visibility: hidden;
+    }
+}

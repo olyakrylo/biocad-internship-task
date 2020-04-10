@@ -6,14 +6,14 @@ export default class Header extends React.Component {
         return (
             <div className='search'>
                 <p className='search__title'>Enter inventory number, guid or bims id</p>
-                <form className='search__form'>
+                <div className='search__form'>
                     <select className='search__select' defaultValue='1'>
                         <option value='1'>A-001234</option>
                     </select>
                     <button className='search__button'>Search
                         {/* <div className='search__button_hover'></div> */}
                     </button>
-                </form>
+                </div>
             </div>
         )
     }
